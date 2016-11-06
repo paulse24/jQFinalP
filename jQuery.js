@@ -8,7 +8,7 @@ $('.container').append("<div class=standard></div>");
 
 $('div.standard').hover(
   function(){
-$(this).addClass('hovered');}
+$(this).css("background-color", "blue");}
 );
 
 document.getElementById('reset').onclick = function newgrid() {
